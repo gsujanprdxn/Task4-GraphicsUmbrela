@@ -158,7 +158,7 @@ sub { bottom: -.25em; }
 
 /* <=========================================new code=========================> */
 .wrapper{
-  margin: 0px 200px;
+  margin: 0px 250px;
 }
 /* header */
 header .wrapper{
@@ -276,4 +276,90 @@ header .wrapper nav{
 }
 .portfolio .wrapper ul li p span{
   
-font-weight: bold;}
+  font-weight: bold;
+}
+/* <========advertising=========> */
+.advertising .wrapper h3{
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.advertising .wrapper h3 span{
+  color: rgb(141,182,60);;
+}
+.advertising .wrapper .imagecontainer {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction:row;
+}
+.imgcontainer img{
+  width: 132px;
+  height: 100px;
+  /* border: 1px solid red; */
+  padding: 2px;
+  
+}
+.advertising .wrapper i{
+  padding-left: 800px;
+  padding-top: 20px;
+  font-size: 30px;
+  color: rgb(141,182,60);
+}
+/* <========bottom section=======> */
+.bottom .wrapper{
+  /* border: 1px solid red; */
+  display: flex;
+  
+}
+.bottom .wrapper section{
+  width: 190px;
+  padding: 10px;
+}
+.about-us h3{
+  margin: 10px 0px;
+}
+.logos i{
+  visibility: 10;
+}
+.archieve h3{
+  margin: 10px 0px;
+}
+.archieve p{
+  border-bottom: 1px dotted black;
+  padding: 5px 0px;
+}
+.archieve span{
+  display: block;
+  padding-top: 5px;
+}
+.contact h3,.newslatter h3{
+  margin: 10px 0px;
+}
+.contact i{
+  display: block;
+}
+.newslatter input{
+  margin: 5px 0px;
+}
+/* <=========footer=========> */
+footer .wrapper{
+  background-color: rgb(32,32,32);
+  font-size: 10px;
+  padding: 10px 0px;
+}
+footer nav ul{
+  display: flex;
+  list-style: none;
+  text-decoration: azure;
+  
+}
+footer nav{
+  float: left;
+}
+footer .wrapper p{
+  padding-left: 640px;
+  color: antiquewhite;
+  
+}
+footer nav ul li a{
+  color: white;
+}
