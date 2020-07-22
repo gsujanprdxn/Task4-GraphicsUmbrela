@@ -200,7 +200,7 @@ header .wrapper nav{
 }
 /* about */
 .about .wrapper{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .about .wrapper>h3{
   font-size: 25px;
@@ -231,7 +231,7 @@ header .wrapper nav{
 }
 /* <=========portfolio==============> */
 .portfolio .wrapper{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .portfolio .wrapper>h3{
   text-align: left;
@@ -251,8 +251,29 @@ header .wrapper nav{
   width: 50%;
   padding: 10px 10px 10px 0px;
   box-sizing: border-box;
+  text-align: left;
 
 }
 .portfolio .wrapper ul li img{
   float: left;
+  padding-right: 10px;
 }
+.portfolio .wrapper ul li h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.portfolio .wrapper ul li a{
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color:rgb(141,182,60);
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 2px;
+  color: black;
+  
+}
+.portfolio .wrapper ul li p span{
+  
+font-weight: bold;}
